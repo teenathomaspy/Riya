@@ -1,0 +1,38 @@
+Git
+
+git --version
+git config --global user.name "w3schools-test"        --Now let Git know who you are
+git config --global user.email "test@w3schools.com"
+
+Creating Git Folder
+mkdir myproject
+cd myproject
+
+Initialize Git
+git init
+
+
+git status
+
+Files in your Git repository
+	Tracked - files that Git knows about and are added to the repository
+	Untracked - files that are in your working directory, but not added to the repository
+
+
+adding files to staging
+git add index.html
+git add --all
+
+
+commit
+git commit -m "First release of Hello World!"
+
+Git Commit Log
+git log
+
+Git Help
+git commit -help
+
+create branch			-- git branch hello-world-images
+switching of branch		--git checkout hello-world-images
+

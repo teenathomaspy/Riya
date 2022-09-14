@@ -1,0 +1,62 @@
+<!DOCTYPE html>    declaration defines that this document is an HTML5 document
+<html lang="en-US">  specifies English as the language and United States as the country:
+
+<abbr>	Defines an abbreviation or acronym   ex: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.  -->The WHO was founded in 1948.
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction  ex:<p><bdo dir="rtl">hello</bdo></p>  -->olleh
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation
+
+External css
+-------------
+
+	<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+link as email
+--------------
+<a href="mailto:someone@example.com">Send email</a>
+
+add a link to a bookmark on another page:
+-------------------------------------
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+map
+----
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" onclick="myFunction()">
+</map>
+
+picture  --> display different pictures for different devices or screen sizes.
+-------
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+favicon--> add a <link> element to your "index.html" file, after the <title> element
+----------
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+
+ Round Table Borders
+ --------------------
+ table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+instaead of bullets in ol ,ul  -->ist-style-type 
+---------------------
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>

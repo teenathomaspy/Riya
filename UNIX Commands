@@ -1,0 +1,30 @@
+UNIX Commands
+
+cal 				- show current month calendar
+cal 2020			- show  the 2020 calendar
+cal 3 2020 			-show the calendar of March 2020
+
+cat 				- Read the content of a brief file
+cat file1 >> file2 	- will concatenate the files .Result will be in file 2 .File1 get appended at the end of file 2
+
+cd myfiles
+cd ..				- the parent directory of the current directory
+cd /				- to the root directory
+chmod 				-changes the permission information associated with a file
+
+ls -a				-see the file permissions, owners, and sizes of all file
+cp -i oldfile newfile 	- copies a file, preserving the original and creating an identical copy
+date				- displays the current day, date, time, and year
+find . -name myfile.txt -print 		-find all of the files named myfile.txt in your current directory and all of its subdirectories
+
+less textfile 
+ls -la | less 		-display the contents of a file one screen at a time
+man cal 			- display help about the calendar command.
+mv -i oldname newname	- move a file
+pwd					-reports the current directory path.
+rm -i 				- remove (destroy) a file
+rm -rf oldstuff		- remove a non-empty subdirectory, rm accepts the -r option
+rmdir oldstuff		-remove an empty subdirectory
+w 					-list all users logged into the computer.
+who 				-list all users logged into the computer.
+
